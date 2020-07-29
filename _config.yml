@@ -4,6 +4,6 @@ remote_theme: chrisrhymes/bulma-clean-theme
 title: Ultrasound-Guided Robotic Navigationwith Deep Reinforcement Learning
 subtitle: Dataset page
 layout: page
-show_sidebar: false
+show_sidebar: true
 # menubar: menu_notfound
 
