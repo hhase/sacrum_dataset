@@ -1,6 +1,6 @@
 
 # ULTRASOUND SACRUM NAVIGATION DATA SET 
-The present data set consists of lower back ultrasound (US) scans from 34 volunteers in the context of my master thesis in reinforcement learning-based autonomous robotic ultrasound (US) navigation. [This paper](link_to_paper) further details the acquisition method and the related study.
+The present data set consists of lower back ultrasound (US) scans from 34 volunteers in the context of my master thesis in reinforcement learning-based autonomous robotic ultrasound (US) navigation. [This paper](https://arxiv.org/abs/2003.13321) further details the acquisition method and the related study.
 
 The data set is available in [this link.](http://campar.in.tum.de/files/SacrumNavDataset/dataset.zip)
 
