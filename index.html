@@ -1,0 +1,26 @@
+<h1 id="ultrasound-sacrum-navigation-data-set">ULTRASOUND SACRUM NAVIGATION DATA SET</h1>
+<p>The present data set consists of lower back ultrasound (US) scans from 34 volunteers in the context of my master thesis in reinforcement learning-based autonomous robotic ultrasound (US) navigation. <a href="link_to_paper">This paper</a> further details the acquisition method and the related study.</p>
+<p>The data set is available in <a href="https://bit.ly/3cKu9hn">this link.</a></p>
+<h2 id="about-the-data-set">ABOUT THE DATA SET</h2>
+<p>Each volunteer has an associated environment enabled for x-y cartesian navigation, to train a reinforcing learning (RL) agent. Herefore, each subject is represented by a grid of 11x15 bins, each containing 5 US-frames. The grids are built from <em>patient files</em> providing:</p>
+<ul>
+<li>A subject identifier</li>
+<li>A relative path to the frames corresponding to the subject</li>
+<li>A list of coordinates containing US-frames showing the sacrum</li>
+<li>A list of coordinates and the corresponding frame indexes</li>
+<li>An array to visualize the grid environment, where each number represents the closest frame to the center of the bin. The spine is of each subject is approximately located along the 6th row of this matrix, meaning that the most left column corresponds to the bottom part of the scanned volunteer.</li>
+</ul>
+<p>Each volunteer also has a directory <code>Sacrum_SubjectXX</code> that contains the frames for that subject&#39;s environment. Additionally, the folder includes a .csv file consisting of the robot&#39;s position information for each acquired frame of said subject. This file can be used among others to rearrange the frames contained in the patient file, increase the number of frames per bin, or to get a better understanding of the data set.</p>
+<p>The code used to create the <em>patient files</em> can be found in <strong>create_patient_file.py</strong>.
+A sample patient loader can be found in <strong>load_patient_file.py</strong>. </p>
+<h2 id="citation">CITATION</h2>
+<p>If you use this data set for academic work, please cite as:</p>
+<pre><code>@misc{hase2020ultrasoundguided,
+    <span class="hljs-attr">title={Ultrasound-Guided</span> Robotic Navigation <span class="hljs-keyword">with</span> Deep Reinforcement Learning},
+    <span class="hljs-attr">author={Hannes</span> Hase <span class="hljs-literal">and</span> Mohammad Farid Azampour <span class="hljs-literal">and</span> Maria Tirindelli <span class="hljs-literal">and</span> Magdalini Paschali <span class="hljs-literal">and</span> Walter Simson <span class="hljs-literal">and</span> Emad Fatemizadeh <span class="hljs-literal">and</span> Nassir Navab},
+    <span class="hljs-attr">year={2020},</span>
+    <span class="hljs-attr">eprint={2003.13321},</span>
+    <span class="hljs-attr">archivePrefix={arXiv},</span>
+    <span class="hljs-attr">primaryClass={cs.LG}</span>
+}
+</code></pre>
