@@ -2,7 +2,7 @@
 # ULTRASOUND SACRUM NAVIGATION DATA SET 
 The present data set consists of lower back ultrasound (US) scans from 34 volunteers in the context of my master thesis in reinforcement learning-based autonomous robotic ultrasound (US) navigation. [This paper](link_to_paper) further details the acquisition method and the related study.
 
-The data set is available in [this link.](https://bit.ly/3cKu9hn)
+The data set is available in [this link.](campar.in.tum.de/files/SacrumNavDataset/dataset.zip)
 
 ## ABOUT THE DATA SET
 Each volunteer has an associated environment enabled for x-y cartesian navigation, to train a reinforcing learning (RL) agent. Herefore, each subject is represented by a grid of 11x15 bins, each containing 5 US-frames. The grids are built from *patient files* providing:
