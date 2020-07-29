@@ -1,9 +1,12 @@
 - label: Menu 
   items:
     - name: Description
-      link: /#description
+      link: /
+#       link: /#description
     - name: About the dataset
-      link: /#about-the-dataset
+      link: /
+#       link: /#about-the-dataset
     - name: Citation
-      link: /#citation
+      link: /
+#       link: /#citation
       
