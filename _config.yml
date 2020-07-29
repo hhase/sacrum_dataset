@@ -1,1 +1,9 @@
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+remote_theme: chrisrhymes/bulma-clean-theme
+
+title: Page with menubar
+subtitle: Demo page with a menubar
+layout: page
+show_sidebar: false
+menubar: example_menu
+
