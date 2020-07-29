@@ -4,7 +4,7 @@ The present data set consists of lower back ultrasound (US) scans from 34 volunt
 
 The data set is available in [this link.](http://campar.in.tum.de/files/SacrumNavDataset/dataset.zip)
 
-[About the dataset](#-about)
+## [About the dataset](#-about)
 Each volunteer has an associated environment enabled for x-y cartesian navigation, to train a reinforcing learning (RL) agent. Herefore, each subject is represented by a grid of 11x15 bins, each containing 5 US-frames. The grids are built from *patient files* providing:
 - A subject identifier
 - A relative path to the frames corresponding to the subject
@@ -16,6 +16,37 @@ Each volunteer also has a directory `Sacrum_SubjectXX` that contains the frames 
 
 The code used to create the *patient files* can be found in **create_patient_file.py**.
 A sample patient loader can be found in **load_patient_file.py**. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## CITATION
 If you use this data set for academic work, please cite as:
