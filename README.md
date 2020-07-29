@@ -28,30 +28,48 @@ A sample patient loader can be found in **load_patient_file.py**.
 
 
 1
+
 1
+
 1
+
 1
+
 1
+
 11
 1
-1
-1
-1
-1
-1
-1
-1
-1
 
 1
+
+
 1
+
 1
 
 1
 
 1
+
+1
+
+1
+
+
+1
+
 1
 1
+
+1
+
+1
+
+1
+
+1
+1
+
 1
 1
 1
