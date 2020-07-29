@@ -1,5 +1,5 @@
-theme: jekyll-theme-cayman
-# remote_theme: chrisrhymes/bulma-clean-theme
+# theme: jekyll-theme-cayman
+remote_theme: chrisrhymes/bulma-clean-theme
 
 title: Ultrasound-Guided Robotic Navigationwith Deep Reinforcement Learning
 subtitle: Dataset page
