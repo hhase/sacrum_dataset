@@ -1,9 +1,9 @@
 #theme: jekyll-theme-cayman
 remote_theme: chrisrhymes/bulma-clean-theme
 
-title: Page with menubar
-subtitle: Demo page with a menubar
+title: Ultrasound-Guided Robotic Navigationwith Deep Reinforcement Learning
+subtitle: Dataset page
 layout: page
 show_sidebar: false
-menubar: example_menu
+menubar: menu
 
