@@ -1,10 +1,10 @@
 
-# ULTRASOUND SACRUM NAVIGATION DATA SET 
+## Description
 The present data set consists of lower back ultrasound (US) scans from 34 volunteers in the context of my master thesis in reinforcement learning-based autonomous robotic ultrasound (US) navigation. [This paper](https://arxiv.org/abs/2003.13321) further details the acquisition method and the related study.
 
 The data set is available in [this link.](http://campar.in.tum.de/files/SacrumNavDataset/dataset.zip)
 
-## [About the dataset](#-about)
+## About the dataset
 Each volunteer has an associated environment enabled for x-y cartesian navigation, to train a reinforcing learning (RL) agent. Herefore, each subject is represented by a grid of 11x15 bins, each containing 5 US-frames. The grids are built from *patient files* providing:
 - A subject identifier
 - A relative path to the frames corresponding to the subject
@@ -15,70 +15,9 @@ Each volunteer has an associated environment enabled for x-y cartesian navigatio
 Each volunteer also has a directory `Sacrum_SubjectXX` that contains the frames for that subject's environment. Additionally, the folder includes a .csv file consisting of the robot's position information for each acquired frame of said subject. This file can be used among others to rearrange the frames contained in the patient file, increase the number of frames per bin, or to get a better understanding of the data set.
 
 The code used to create the *patient files* can be found in **create_patient_file.py**.
-A sample patient loader can be found in **load_patient_file.py**. 
+A sample patient loader can be found in **load_patient_file.py**.
 
-
-
-
-
-
-
-
-
-
-
-1
-
-1
-
-1
-
-1
-
-1
-
-11
-1
-
-1
-
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-
-1
-
-1
-1
-
-1
-
-1
-
-1
-
-1
-1
-
-1
-1
-1
-
-1
-
-
-
-## CITATION
+## Citation
 If you use this data set for academic work, please cite as:
 
 ```
